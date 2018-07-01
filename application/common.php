@@ -10,14 +10,3 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
-
-
-function api_success($message = '', $data = []) {
-	return ['flag' => 'success', 'message' => $message, 'data' => $data];
-}
-
-
-
-function api_error($message = '', $code = '', $data = []) {
-	return ['flag' => 'error', 'message' => $message, 'err_code' => $code, 'data' => $data];
-}
